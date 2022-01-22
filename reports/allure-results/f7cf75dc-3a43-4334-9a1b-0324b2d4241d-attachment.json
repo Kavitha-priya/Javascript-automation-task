@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[text()=\"Sauce Labs Onesie\"]/parent::a/following-sibling::div[2]//button"
+}

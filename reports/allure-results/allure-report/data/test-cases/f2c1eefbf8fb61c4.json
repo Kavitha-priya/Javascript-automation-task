@@ -1,0 +1,135 @@
+{
+  "uid" : "f2c1eefbf8fb61c4",
+  "name" : "When adding an item = \"Sauce Labs Onesie\" to the cart",
+  "fullName" : "SWAGLABS testing: To test adding an item into a cart.When adding an item = \"Sauce Labs Onesie\" to the cart",
+  "historyId" : "b260de83d56e1b573c5558a22fa547c8",
+  "time" : {
+    "start" : 1642831270384,
+    "stop" : 1642831270646,
+    "duration" : 262
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1642831270384,
+        "stop" : 1642831270617,
+        "duration" : 233
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d39dd15cbaf04de2",
+        "name" : "Request",
+        "source" : "d39dd15cbaf04de2.json",
+        "type" : "application/json",
+        "size" : 154
+      }, {
+        "uid" : "4063e4c982c12203",
+        "name" : "Screenshot",
+        "source" : "4063e4c982c12203.png",
+        "type" : "image/png",
+        "size" : 461646
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/19167050-d06a-4617-ac1a-ecc927e55cac/click",
+      "time" : {
+        "start" : 1642831270621,
+        "stop" : 1642831270644,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1642831270645,
+        "stop" : 0,
+        "duration" : -1642831270645
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "b1bc69078c4e37f4",
+      "name" : "Response",
+      "source" : "b1bc69078c4e37f4.json",
+      "type" : "application/json",
+      "size" : 83
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "SWAGLABS testing: To test adding an item into a cart"
+  }, {
+    "name" : "testClass",
+    "value" : "SWAGLABS testing: To test adding an item into a cart"
+  }, {
+    "name" : "testMethod",
+    "value" : "When adding an item = \"Sauce Labs Onesie\" to the cart"
+  }, {
+    "name" : "package",
+    "value" : "SWAGLABS testing: To test adding an item into a cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.99"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f2c1eefbf8fb61c4.json",
+  "parameterValues" : [ "chrome-97.0.4692.99" ]
+}

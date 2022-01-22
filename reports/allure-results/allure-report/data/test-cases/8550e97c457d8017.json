@@ -1,0 +1,231 @@
+{
+  "uid" : "8550e97c457d8017",
+  "name" : "Then item count should be increased by 1 and \"Sauce Labs Onesie\" should be added in Your Cart screen",
+  "fullName" : "SWAGLABS testing: To test adding an item into a cart.Then item count should be increased by 1 and \"Sauce Labs Onesie\" should be added in Your Cart screen",
+  "historyId" : "88bccbc8dc3dfbd4dce5f87b3e0e8bd6",
+  "time" : {
+    "start" : 1642831270646,
+    "stop" : 1642831270960,
+    "duration" : 314
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1642831270646,
+        "stop" : 1642831270887,
+        "duration" : 241
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "14a776f44339be75",
+        "name" : "Request",
+        "source" : "14a776f44339be75.json",
+        "type" : "application/json",
+        "size" : 75
+      }, {
+        "uid" : "1ed820253d81f904",
+        "name" : "Screenshot",
+        "source" : "1ed820253d81f904.png",
+        "type" : "image/png",
+        "size" : 697887
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/ca25af13-ebad-4309-9aa6-524f31680bd6/click",
+      "time" : {
+        "start" : 1642831270891,
+        "stop" : 1642831270927,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1642831270928,
+        "stop" : 1642831270939,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "12135947d6fc7623",
+        "name" : "Request",
+        "source" : "12135947d6fc7623.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "f0a023a80a55e6e0",
+        "name" : "Response",
+        "source" : "f0a023a80a55e6e0.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1642831270941,
+        "stop" : 1642831270951,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9369917163ddf796",
+        "name" : "Request",
+        "source" : "9369917163ddf796.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "203d1ad7cea47f17",
+        "name" : "Response",
+        "source" : "203d1ad7cea47f17.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1642831270953,
+        "stop" : 0,
+        "duration" : -1642831270953
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1642831270955,
+          "stop" : 0,
+          "duration" : -1642831270955
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "GET /session/:sessionId/screenshot",
+          "time" : {
+            "start" : 1642831270959,
+            "stop" : 0,
+            "duration" : -1642831270959
+          },
+          "status" : "unknown",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ {
+          "uid" : "7596e99aaaf39a78",
+          "name" : "Request",
+          "source" : "7596e99aaaf39a78.json",
+          "type" : "application/json",
+          "size" : 116
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "37339c4498f37b02",
+        "name" : "Request",
+        "source" : "37339c4498f37b02.json",
+        "type" : "application/json",
+        "size" : 68
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "f9b7a4bf9197a35c",
+      "name" : "Response",
+      "source" : "f9b7a4bf9197a35c.json",
+      "type" : "application/json",
+      "size" : 83
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "SWAGLABS testing: To test adding an item into a cart"
+  }, {
+    "name" : "testClass",
+    "value" : "SWAGLABS testing: To test adding an item into a cart"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then item count should be increased by 1 and \"Sauce Labs Onesie\" should be added in Your Cart screen"
+  }, {
+    "name" : "package",
+    "value" : "SWAGLABS testing: To test adding an item into a cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.99"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8550e97c457d8017.json",
+  "parameterValues" : [ "chrome-97.0.4692.99" ]
+}

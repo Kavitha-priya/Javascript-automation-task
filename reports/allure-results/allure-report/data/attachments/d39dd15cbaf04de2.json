@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[text()=\"Sauce Labs Onesie\"]/../parent::div[@class=\"inventory_item_label\"]/following-sibling::div[1]//button"
+}

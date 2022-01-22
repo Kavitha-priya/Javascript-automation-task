@@ -1,0 +1,108 @@
+{
+  "uid" : "12313b439696d0cf",
+  "name" : "Given the user launched SWAGLABS",
+  "fullName" : "SWAGLABS testing: To test adding an item into a cart.Given the user launched SWAGLABS",
+  "historyId" : "276be1e69c50e829fd19ed8332c0c07b",
+  "time" : {
+    "start" : 1642831269612,
+    "stop" : 1642831269941,
+    "duration" : 329
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1642831269613,
+        "stop" : 1642831269938,
+        "duration" : 325
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dca312d288363e46",
+        "name" : "Request",
+        "source" : "dca312d288363e46.json",
+        "type" : "application/json",
+        "size" : 41
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1642831269939,
+        "stop" : 0,
+        "duration" : -1642831269939
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "SWAGLABS testing: To test adding an item into a cart"
+  }, {
+    "name" : "testClass",
+    "value" : "SWAGLABS testing: To test adding an item into a cart"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given the user launched SWAGLABS"
+  }, {
+    "name" : "package",
+    "value" : "SWAGLABS testing: To test adding an item into a cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.99"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "12313b439696d0cf.json",
+  "parameterValues" : [ "chrome-97.0.4692.99" ]
+}

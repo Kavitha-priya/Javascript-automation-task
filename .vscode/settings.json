@@ -1,0 +1,15 @@
+{
+    "cucumberautocomplete.steps": [
+        "step-definitions/*.js"
+    ],
+    "cucumberautocomplete.syncfeatures": "features/*feature", 
+    "cucumberautocomplete.strictGherkinCompletion": true,
+    "cucumberautocomplete.strictGherkinValidation": true,
+    "window.zoomLevel": 0,
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": true,
+    "launch": {
+      
+    },
+    "workbench.iconTheme": "vscode-icons"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "webdriverio-javascript-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kavitha Priya",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.10",
+    "@babel/register": "^7.6.0",
+    "@wdio/allure-reporter": "^7.16.13",
+    "@wdio/cli": "^7.16.13",
+    "@wdio/cucumber-framework": "^7.16.13",
+    "@wdio/local-runner": "^7.16.13",
+    "@wdio/selenium-standalone-service": "^7.16.13",
+    "@wdio/spec-reporter": "^7.16.13",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.3.4",
+    "chromedriver": "^97.0.0",
+    "cucumber": "^7.0.0-rc.0",
+    "wdio-chromedriver-service": "^7.2.6",
+    "webdriverio": "^7.16.13"
+  },
+  "dependencies": {
+    "moment-strftime": "^0.5.0"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "uid" : "5ce2a372da31f5d4",
+  "name" : "",
+  "fullName" : "SWAGLABS testing: To test adding an item into a cart.",
+  "historyId" : "f144b01ad4713273a0e86315a3230921",
+  "time" : {
+    "start" : 1642831271121,
+    "stop" : 1642831271122,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "SWAGLABS testing: To test adding an item into a cart"
+  }, {
+    "name" : "testClass",
+    "value" : "SWAGLABS testing: To test adding an item into a cart"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "SWAGLABS testing: To test adding an item into a cart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.99"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ef62d6cf2209c9c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642831269610,
+        "stop" : 1642831269611,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5ce2a372da31f5d4.json",
+  "parameterValues" : [ "chrome-97.0.4692.99" ]
+}
